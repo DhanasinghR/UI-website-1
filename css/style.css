@@ -1,0 +1,514 @@
+.fullWidth{
+    width: 100%;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 23px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar {
+    position: fixed;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: transparent;
+    border: 0;
+}
+.Banner img{
+    max-height: 500px;
+}
+.Banner {
+    position: relative;
+    background: transparent;
+    border: 0;
+}
+.Bannercontent {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        max-width: 200px;
+        bottom: 0;
+        max-height: 200px;
+        min-width: 321px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+}
+.Banner::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000ba;
+}
+
+.Banner::after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+hr.small {
+    max-width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr.primary {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    height: 0.125rem;
+    border-color: #ef4035;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+
+small, .small {
+    font-size: 80%;
+    font-weight: 400;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(204, 6, 6, 0.966);
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.Bannercontent h1 {
+    color: #fff;
+    FONT-SIZE: 85px;
+    text-align: center;
+    font-weight: 900;
+}
+.Bannercontent h5 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.icon {
+    position: absolute; 
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-height: 30px;
+    max-width: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    min-width: 40px;
+    min-height: 40px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+.glyphicon {
+    color: #fff;
+    background-origin: padding-box;
+}
+.About {
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-bottom: 100px;
+ padding-top: 100px;
+}
+.about h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.about h5 {
+    font-size: 25px;
+    text-align: center;
+}
+.about .h4, .p {
+    color: black;
+}
+.iconglyphicon {
+    font-size: 70px;
+    font-weight: 900;
+}
+.site {
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+    font-size: 22px;
+}
+.site h4 {
+    font-weight: 900;
+    font-size: 25px;
+    color: black;
+}
+.team h1, p {
+text-align: center;
+color: black;
+}
+.team h1 {
+    font-weight: 900;
+}
+.team p {
+    font-size: 18px;
+    color: black;
+}
+.member-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background: url(../img/1.jpg);
+    
+}
+.Member-details  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background: url(../img/2.jpg);
+  
+}
+.MEmber-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 340px;
+    height:340px;
+    background: url(../img/3.jpg);
+   
+}
+.MEMer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width:340px;
+    height: 340px;
+    background: url(../img/4.jpg);
+    
+}
+.MEMBER-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background: url(../img/5.jpg);
+}
+.TEAM {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ourcontainer {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.workContainer {
+    padding-top: 400px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.calloutText {
+    background: url(../img/bg-callout.jpg);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.calloutText p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+.howButton {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: 900;
+        color: #212529;
+        background-color: transparent;
+        border: 1px solid transparent;
+        
+}
+
+.ourProcessContainer {
+    text-align: center;
+}
+.ourProcessContainer h4 {
+    font-size: xxx-large;
+    font-weight: 900;
+}
+.ourProcessContainer p {
+    font-size: x-large;
+}
+.plan h5 {
+    font-weight: 900;
+    font-size: x-large;
+}
+.planProcess {
+    line-height: unset;
+}
+.plantower  {
+    display: flex;
+    font-size: xx-large;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.gapPlan {
+    display: flex;
+    gap: 20px;
+}
+.process {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.portfolio {
+    position: relative;
+    background: transparent;
+}
+.portImg {
+    position: absolute;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    z-index: 7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.portImage{
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    margin: 0;
+}
+.portImage h4 {
+    font-size: xx-large;
+    color: #fff;
+    font-weight: 900;
+}
+.portImage p {
+    color: #fff;
+    font-size: 18px;
+}
+.port {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.port h5 {
+    font-size: xxx-large;
+    color: #000;
+    font-weight: 900;
+}
+.port p {
+    color: #000;
+    font-size: 18px;
+}
+.portfolioImage {
+    display: flex;
+    padding-bottom: 100px;
+}
+.picBox {
+    position: relative;
+    opacity: 1;
+    transition: 0.9s;
+    display: flex;
+    width: 370px;
+    height: 246px;
+}
+.picBox:hover {
+    opacity: 0.1;
+}
+.portText {
+    position: absolute;
+    top: 165px;
+    bottom: 0;
+    right: -75px;
+    left: 25px;
+}
+.portText h5 {
+    color: #fff;
+    text-align: inherit;
+}
+.portText p {
+    color: #fff;
+    text-align: inherit;
+}
+.testCont {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.testCont h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+.testCont p {
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.testName h4 {
+    font-weight: revert;
+    font-size: 25px;
+}
+.testName p {
+    font-size: 17px;
+}
+.newsLetter {
+    background-color: #000;
+    width: 100%;
+    height: 349px;
+    text-align: center;
+}
+.newsLetter h1 {
+    color: #fff;
+    font-weight: 900;
+    padding-top: 100px;
+}
+.newsButton {
+    display: flex;
+    justify-content: center;
+}
+.newsButton input {
+    border: 1px solid red;
+    padding: 2px;
+    width: 850px;
+    height: 35px;
+}
+.newsButton button {
+    background-color: #ef4035;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 0;
+}
+.contactus {
+    text-align: center;
+    padding-top: 100px;
+}
+.contactus h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+.contactus p {
+    font-size: 18px;
+}
+.form-group {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.form-group input {
+    box-sizing: inherit;
+    border: 0;
+}
+.sendButton {
+    padding-bottom: 100px;
+}
+.buyIt {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+}
+.buyIt h4 {
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
+.end span {
+    color: #000;
+}
+
+.end {
+    text-align: center;
+}
+.endCard {
+    position: relative;
+    background: transparent;
+    border: 0;
+    opacity: 0.6;
+}
+.rowEnding {
+    position: absolute;
+    top: 7280px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: auto;
+    bottom: 0;
+    max-height: auto;
+    min-width: autp;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+}
+
+.rowEnding {
+    color: rgb(14, 13, 13);
+}
+
+.rowEnding p {
+    color: rgb(14, 13, 13);
+}
